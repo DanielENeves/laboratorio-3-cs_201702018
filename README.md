@@ -47,11 +47,9 @@ Pretende-se desenvolver um protótipo para uma empresa transportadora que possui
 
 ### Nível 3:
 
-1. Implemente nas classse `GroundTransportation` e `AirTransportation` o método `getPriceWithFees` que retorne o preço do transporte com a taxa de honorários cobrados.
+1. Implemente nas duas sub classes anteriores o método `getTransportType` que devolve uma `String` com a descrição do tipo de transporte.
 
-2. Implemente nas duas sub classes anteriores o método `getTransportType` que devolve uma `String` com a descrição do tipo de transporte.
-
-3. Implemente nas duas sub classes anteriores o método `toString()`, que retorne a informação dos atributos na forma de texto (`String`).
+1. Implemente nas duas sub classes anteriores o método `toString()`, que retorne a informação dos atributos na forma de texto (`String`).
     - Nota: reutilize o método idêntico da super classe.
 
 
